@@ -1,0 +1,26 @@
+.task div{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+    background-color: blueviolet;
+    background-image: url("https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png");
+}
+.task .assign-3-shape-1{
+   
+background-repeat: no-repeat;
+}
+
+
+.task  .assign-3-shape-2{
+background-repeat: repeat-y;
+background-position: right;
+}
+.task .assign-3-shape-3{
+background-repeat: repeat-x;
+background-position: bottom;
+}
+.task .assign-3-shape-4{
+    
+    background-repeat: repeat;
+}
+

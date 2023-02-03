@@ -1,0 +1,30 @@
+
+.one{
+    color:black;
+    background-color: #eee;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+.two{
+    color:black;
+    background-color: #eee;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+ .three{
+      color:black;
+    background-color: #eee;
+     width: 400px; 
+    padding: 20px;
+    margin: 20px;  
+    white-space: nowrap;
+     overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.three:hover{
+    
+    overflow: visible;
+}

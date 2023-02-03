@@ -1,0 +1,13 @@
+.one{
+    
+     color: white;
+    background-color: darkcyan;
+    font-size: 80px;
+    padding: 40px;
+    margin: 40px;
+    width: 200px;
+    text-transform: capitalize;
+    border-bottom: 10px solid #00514a; 
+    
+
+}

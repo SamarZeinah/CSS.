@@ -1,0 +1,18 @@
+.one{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.two{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-transform:capitalize;
+}
+.three{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-transform:lowercase;
+}

@@ -1,0 +1,20 @@
+.one{
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+font-style: italic;
+text-align: center;
+
+}
+.two{
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+    text-align: center;
+
+}
+.three{
+    font-weight: 400;
+    font-family: "Jomhuria", cursive;
+    text-align: center;
+
+}

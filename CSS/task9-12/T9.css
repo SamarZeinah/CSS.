@@ -1,0 +1,30 @@
+.T9 div{
+   display: inline-block;
+   background-color:aliceblue;
+    padding: 40px;
+   margin: 40px; 
+}
+.T9 .assign1{
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 5px;
+}
+.T9 .assign2{
+    border-width: 5px;
+    border-color:blue green;
+    border-style: solid;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 5px;
+}
+.T9 .assign3{
+    border-width: 5px;
+    border-color: red green blue yellow;
+    border-style:dashed;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 5px;
+}

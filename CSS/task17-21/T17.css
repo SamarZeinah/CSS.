@@ -1,0 +1,12 @@
+div{
+    background-color:#eee; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+width: 400px;
+    padding: 20px;
+    margin: 20px;
+  font-size: 40px;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 0px red,4px 4px 0px blue,6px 6px 0px blueviolet;
+
+}

@@ -1,0 +1,44 @@
+.one{
+    background-color: brown;
+    color: white;
+    display: block;
+    max-width: 400px;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+
+}
+.two{
+    background-color: brown;
+    color: white;
+    display: block;
+    max-width: 400px;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+.three{
+    background-color: brown;
+    color: white;
+    display: block;
+    max-width: 400px;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+.four{
+    color: white;
+    background-color: brown;
+    display: block;
+    max-width: 400px;
+    width: fit-content;
+     overflow:hidden; 
+    padding: 10px;
+    margin: 10px;
+
+
+}
