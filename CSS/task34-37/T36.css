@@ -1,0 +1,38 @@
+.one p{
+    color:black;
+    background-color: #eee;
+    width:350px;
+    height: 30px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    line-height: 3px;
+    position: relative;
+    border-left: 4px solid rgb(220, 62, 114);
+    line-height: 2;
+    
+    
+}
+.one p::after{
+    content: "";
+     position: absolute; 
+     border-width: 20px; 
+
+    border-style: solid;
+    border-color: transparent rgb(220, 62, 114) transparent transparent; 
+    left:-40px;
+    top: 50%;
+    margin-top: -19px;
+    
+}
+.one p::before {
+    content: attr(data-person);
+    position: absolute;
+    background-color: #eee;
+    padding: 10px;
+    width: 40px;
+    left: -100px;
+    height: 30px;
+    top: 50%;
+    margin-top: -30px;
+    text-align: center;
+  }

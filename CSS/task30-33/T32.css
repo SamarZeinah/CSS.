@@ -1,0 +1,47 @@
+ul{
+  
+    background-color: #eee;
+    margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  
+   
+}
+.html{
+    list-style-type: none;
+     /* padding: 10px;
+     margin: 10px 0px; */
+}
+.ht{
+    background-color:white;
+    list-style-type: none; 
+     padding: 10px;
+     margin: 10px  ;
+    list-style: decimal;
+}
+.css{
+    list-style-type: none;
+     /* padding: 10px;
+     margin: 10px ;  */
+}
+.cs{
+    background-color:white;
+    list-style-type: none;
+     padding: 10px;
+     margin: 10px ; 
+    list-style:upper-roman;
+}
+.java{
+    list-style-type: none;
+    /* padding: 10px; 
+    margin: 10px ;   */
+}
+.js{
+    background-color:white;
+     list-style-type: none; 
+     padding: 10px;
+     margin: 10px ; 
+    width: auto;
+    list-style:circle;
+    list-style-position: inside;
+}

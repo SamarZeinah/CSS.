@@ -1,0 +1,61 @@
+div{
+    width: 400px;
+    text-align: center;
+    background-color: #eee;
+    border-color:red blue ;
+    position: relative;
+     font-weight: bold;
+      border-width: 2px ;  
+    border-style: solid;
+    margin: 60px auto;
+    padding: 30px;
+    
+}
+.top-left{
+    width: 30px;
+    height: 20px;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    top:-10px; 
+     left: -10px;
+     border-right: 4px solid red;
+
+    
+}
+.bottom-left{
+    width: 30px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    background-color: blue;
+    bottom:-10px;
+    left: -10px;
+    border-right: 4px solid red;
+    
+
+}
+.top-right{
+    width: 30px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    background-color: blue;
+    top:-10px;
+    right: -10px;
+    border-left: 4px solid red;
+
+
+}
+.bottom-right{
+    width: 30px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    background-color: blue;
+    bottom:-10px;
+    right: -10px;
+    border-left: 4px solid red;
+  
+
+}

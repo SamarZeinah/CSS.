@@ -1,0 +1,46 @@
+div {
+    width: 100px;
+    height: 100px;
+    /* position: absolute; */
+    border: 3px solid black;
+    border-radius: 50%;
+    box-shadow: 4px 4px 0 rgb(30, 30, 236), -5px -5px 0 rgb(242, 84, 84);
+     position: relative; 
+    counter-increment: num;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    left: 10px;
+    
+
+}
+
+div::after {
+    content: "Element";
+    font-family: "Cairo", sans-serif;
+    color: black;
+    left: 50px;
+    top: 50%;
+    margin-top: -1px;
+    margin-left: 20px;
+    line-height: 6;
+    float: left;
+
+}
+
+div::before {
+    position: absolute;
+    content: counter(num);
+    color: white;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 1.5;
+    text-align: center;
+   
+    left: 49px;
+    top: -6px;
+    margin-top: -12.5px;
+    display: inline-block;
+}

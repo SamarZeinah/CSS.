@@ -1,0 +1,47 @@
+table{
+    width: 700px;
+     margin-left: auto;
+    margin-right: auto; 
+    color: black;
+    background-color: #eee;
+   font-family:Arial, Helvetica, sans-serif;
+}
+table thead tr td {
+    color: #eee;
+    background-color: rgb(63, 63, 63);
+    font-weight: bold;
+  }
+
+ table image{
+   width: 110px;
+   height: 110px;
+    padding-top: 10px
+}
+
+table tr {
+    height: 90px;
+    text-align: center;
+  }
+  
+  table td {
+    border-spacing: 2px solid white;
+    background-color: #eee;
+   
+}
+table button {
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+  }
+  
+  table .one{
+    background-color: blue;
+  }
+  
+  table .two {
+    background-color: red;
+  }
+
