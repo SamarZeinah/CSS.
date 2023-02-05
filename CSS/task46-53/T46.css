@@ -1,0 +1,17 @@
+div{
+color: rgba(255, 166, 0, 0.888);
+border-radius: 50%;
+background-color: #eee;
+height: 100px;
+width: 100px;
+position: absolute;
+flex-direction: initial ;
+flex: row;
+padding: 15px;
+left: 600px;
+margin: 15px auto;
+justify-content: center;
+display: flex;
+align-items: center;
+box-shadow: 10px 0px 0 0 rgba(248, 135, 6, 0.888),-10px 0px 0 0 rgb(92, 190, 247);
+}

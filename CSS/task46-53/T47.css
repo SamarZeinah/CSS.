@@ -1,0 +1,23 @@
+.one {
+    width: 600px;
+height: 300px;
+padding: 15px;
+margin: 5px auto;
+color: white;
+background-color:#eee;
+text-align: center;
+display: flex;
+flex-flow: wrap;
+justify-content: space-between;
+align-content: space-between;
+}
+.one div{
+    background-color: #f70404;
+color: white;
+height: 50px;
+width:calc(99.5%/3);
+align-items: center;
+justify-content: center;
+display: flex;
+
+}

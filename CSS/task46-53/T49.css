@@ -1,0 +1,26 @@
+.par {
+    width: 600px;
+    height: 300px;
+    padding: 15px;
+    margin: 5px auto;
+    color: white;
+    background-color:#eee;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    }
+    .par div{
+        height:  calc(90% / 3);
+        color: white;
+        align-items: center;
+        background-color: #009688;
+        justify-content: center;
+        display: flex;
+        width: 6%;
+        }   
+    .par .two{
+          width: 295px;
+align-self: self-start;
+            }    
