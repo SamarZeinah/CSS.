@@ -1,0 +1,58 @@
+.layout{
+  display: grid;
+    height: 400px; 
+    grid-template-areas:
+     "head head head head head head head head"
+    " bod bod bod bod bod bod side side  " 
+    " foot foot foot foot foot foot foot foot";
+    grid-template-rows: 50px 1fr 50px;  
+    
+}
+.layout header{
+    grid-area: head;
+    background-color: #03a9f4;
+    ;
+}
+.layout header::before{
+    content: "Header";
+    display: flex;
+    color: white;
+     padding: 10px; 
+
+    
+}
+.layout section{
+    grid-area: bod;
+    background-color: orangered;
+}
+.layout section::before{
+    content: "section";
+    display: flex;
+    color: white;
+     padding: 10px; 
+
+   
+}
+.layout aside{
+    grid-area: side;
+    background-color:slategray;
+}
+.layout aside::before{
+    content: "Aside";
+    display: flex;
+    color: white;
+       padding: 10px; 
+
+   
+}
+.layout footer{
+    grid-area: foot;
+    background-color: #009688;
+}
+.layout footer::before{
+    content: "footer";
+    display: flex;
+    color: white;
+    padding: 10px; 
+   
+}

@@ -1,0 +1,29 @@
+div{
+    background-color: #eee;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    width: 600px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+   padding: 10px;
+   margin: 10px;
+   position: relative;
+   border: none;
+
+}
+div::before{
+    content: "";
+    position: absolute;
+    background-image:linear-gradient(to right,
+    red 50%,
+    green 50%);
+    bottom: -4px;
+  right: 0px; 
+   z-index: -1;
+    width: 100%;
+  height: 4px; 
+}
+:focus {
+    outline: none;
+}

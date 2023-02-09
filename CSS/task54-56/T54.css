@@ -1,0 +1,57 @@
+div{
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    width: 600px;
+    height: 80px;
+    margin-top: 30px;
+    background-color: #eee;
+    font-size: 3em;
+    text-align: center;
+    line-height: 1.8;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    letter-spacing:4px;
+}
+div::before{
+    content: "";
+    width: 600px;
+    height: 100px;
+    position: absolute;
+     top: -10px;
+   left: -10px; 
+   z-index: -1; 
+    background-image:linear-gradient(to right,
+    #f44336 20%,
+    #2196f3 20%,
+    #2196f3 40%,
+    #4caf50 40%,
+    #4caf50 60%,
+    #e91e63 60%,
+    #e91e63 80%,
+    #673ab7 80%);
+
+}
+ div::after {
+    content: "";
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    bottom: -10px;
+    right: -10px; 
+    z-index: -1; 
+    background-image:linear-gradient(to right,
+    #f44336 20%,
+    #2196f3 20%,
+    #2196f3 40%,
+    #4caf50 40%,
+    #4caf50 60%,
+    #e91e63 60%,
+    #e91e63 80%,
+    #673ab7 80%);
+
+  }
+  div::first-letter{
+     color: #f44336;
+  }
