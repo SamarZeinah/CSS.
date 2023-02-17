@@ -1,0 +1,29 @@
+h1{
+   
+    display: flex;
+    background-color:#00897b;
+    color: white;
+    width: 150px;
+    height: 70px;
+    margin: auto;
+    margin-top: 60px;
+     align-items: center;
+  justify-content: center; 
+    position: relative;
+    padding-left: 20px;
+    
+    
+}
+h1::before{
+    content: "";
+    width: 15%;
+    height: 100%;
+    top:0;
+    left: -15px;
+    z-index: 2;
+    position: absolute;
+    background-color: #00897b;
+     transform:skew(22deg,0deg); 
+     border-right: solid 8px white;
+
+}

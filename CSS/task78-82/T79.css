@@ -1,0 +1,4 @@
+.parent div:nth-child(2){
+    color :red;
+    font-weight: 600;
+}

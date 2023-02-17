@@ -1,0 +1,4 @@
+div :nth-last-of-type(2):not([class="no-need"] :nth-last-child(2)){
+color: red;
+font-weight: 600;
+}

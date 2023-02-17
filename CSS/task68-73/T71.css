@@ -1,0 +1,36 @@
+div{
+    
+    display: flex;
+    background-color:#607d8b;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 220px;
+    position: relative;
+  border-bottom: 5px solid black;
+    
+
+
+   
+}
+div::before{
+    content: "";
+    position: absolute;
+     transform-origin: 0 0;
+     background-color:black;
+     width: 138px;
+     height: 138px;
+     top: 0px;
+     left: 100px;
+    border-bottom: 4px solid white;
+  border-right: 4px solid white;
+  transform: rotate(44.5deg) translate(-50%, -50%);
+}
+div::after {
+    font-family: Arial, Helvetica, sans-serif;
+    content: "Elzero";
+    color: white;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-top: 174px;
+  }

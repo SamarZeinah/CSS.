@@ -1,0 +1,4 @@
+div :not(h3, :first-child, :last-child) {
+    color: red;
+    font-weight: 600;
+  }
