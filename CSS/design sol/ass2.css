@@ -1,0 +1,455 @@
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :root {
+    --main-color: #2196f3;
+    --main-color-alt: #1787e0;
+    --main-transition: 0.3s;
+    --main-padding-top: 100px;
+    --main-padding-bottom: 100px;
+    --section-background: #ececec;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Cairo", sans-serif;
+    /* background-color:wheat; */
+    /* background-image: url(/design/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg); */
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  /* start header */
+  .header {
+    position: absolute;
+    z-index:2;
+    width: 100%;
+    left:0;
+  }
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 97px;
+    
+  }
+  .logo{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+  }
+  nav{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+   nav .toggle-menu{
+    color: white;
+    font-size: 40px;
+  }
+  @media(min-width:768px){
+    nav .toggle-menu{
+display: none;
+    }
+  
+  }
+   nav ul{
+    display: flex;
+   }
+   @media(max-width:768px){
+    nav ul{
+display: none;
+    }
+    nav .toggle-menu:hover + ul{
+      display: flex;
+      flex-direction: column;
+      left: 0;
+      width: 100%;
+      top: 100%;
+      position: absolute;
+      background-color: rgb(0 0 0 / 50%);  
+    }
+    nav ul li a{
+      padding: 15px;
+    }
+  
+}
+   nav ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 40px 10px;
+    z-index: 2;
+   }
+   nav ul li a.Cont,
+   nav ul li a:hover{
+    color: var(--main-color);
+
+   }
+   nav ul li .Cont{
+    background-color: white;
+    border-radius: 70px;
+    height: 30px;
+    width: 118px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+    padding-left: 22px;
+    padding-bottom: 18px;
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    
+   }
+  /* End Header */
+  /* start landing */
+.landing {
+  min-height: 100vh;
+  background-color: bisque;
+  background-image: url("desktop/image-header.jpg");
+  background-size: cover;
+  position:relative;
+  
+  
+}
+.landing .text{
+  align-items: center;
+  padding-top: 177px;
+    padding-left: 404px;
+  font-weight: bold;
+  font-size: 26px;
+  color: white;
+/* position: absolute;
+left: 0;
+top: 25%;
+transform:translateY(-50) ;
+padding-left: 400px; */
+}
+
+/* مش شغال */
+@media (max-width: 767px) {
+
+   .landing .text {
+    width: 100%;
+    left: 0;
+    align-items: center;
+    text-align: center;
+    margin-left: 50%;
+    
+  }
+  .landing .text .content {
+    max-width: 100%;
+  }
+}
+/* ودا بردو */
+.arrow {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translateX(-50%);
+  /* width: 30px;
+  height: 30px; */
+  /* z-index:2; */
+  color:white;
+}
+
+@media (min-width: 500px) {
+  .arrow { 
+      top: 45%;
+  }
+}
+
+  /* End landing */
+  /* start */
+  
+  .service{
+    top:683px;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 20px;
+  }
+  .PAGE3{
+    top:1020px;  
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+   
+  }
+  .service p{
+    color: rgb(141, 143, 142);
+    }
+    .service h1,
+    p,
+    h3{
+      position: relative;
+      top:130px;
+      display: flex;
+      left: 70px;
+    }
+    .service h3{
+      font-style: inherit;
+    }
+    .service img{
+      position: relative;
+    top:-260px ;
+    left: 700px ;
+    }
+    .service p{
+      color: rgb(141, 143, 142);
+      } 
+      .PAGE3 .A,.B,.C{
+        position: relative;
+        top: 500px;
+        left: 790px ;
+      }
+     
+      .PAGE3 .B{
+        color: rgb(141,143,142);
+       }
+       /* start Design */
+       .Design{
+        
+        top:1699px;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+       }
+       .Design h1{
+        color: #00796B;
+        position: relative;
+        top:500px;
+        left: 226px;
+        /* margin-left: 5px; */
+        
+
+       }
+       .Design p{
+        position: relative;
+        color: #00796B;;
+        top:500px;
+        left: 191px;
+       }
+       .Design2{
+        
+        top:1699px;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: -720px;
+    
+       }
+       .Design2 h1{
+        color: #00796B;
+        position: relative;
+        top:500px;
+        left: 226px;
+       }
+       .Design2 p{
+        position: relative;
+        color: #00796B;
+        top:500px;
+        left: 191px;
+       }
+       /* End Design */
+       /* start client */
+       .clients{
+        
+        top:2500px;
+        left:350px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: auto;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+       }
+       .clients img{
+        border-radius: 50% 50%  50% 50%;
+        border-style: hidden;
+       }
+       .clients h1{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 200px;
+        padding-left:14%;
+        color: gray;
+        
+       }
+       .client1{
+        margin-top: 350px;
+      border-radius: 10%;
+       }
+       .client1 p{
+        display: flex;
+        top:54px;
+        left:-75px;
+        /* color: rgb(255, 255, 255 ,70%) ; */
+        color: gray;
+       }
+       .client1 h2{
+        display: flex;
+        margin-top:90px;
+        
+       }
+       .client1 h4{
+        display: flex;
+        top:54px;
+        color: gray;
+        
+       }
+       
+
+       .client2{
+        margin-top: 350px;
+       }
+       .client2 p{
+        display: flex;
+        top:54px;
+        left:-54px;
+        color: gray;
+
+       }
+       .client2 h2{
+        display: flex;
+        margin-top:90px;
+
+       }
+       .client2 h4{
+        display: flex;
+        top:54px;
+        color: gray;
+        
+       }
+       .client3{
+        margin-top: 350px;
+       }
+       .client3 p{
+        display: flex;
+        top:54px;
+        left:-29px;
+        color: gray;
+
+       }
+       .client3 h2{
+        display: flex;
+        margin-top:90px;
+        
+
+       }
+       .client3 h4{
+        display: flex;
+        top:54px;
+        color: gray;
+        
+       }
+       .Gallary{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        top:50%;
+        width: 60%;
+        height: 60%;
+        margin-top: 3000px;
+        
+       }
+       /* End client */
+       /* finish */
+       .finish {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        color: #00796B;
+        background-color: #7ebcb4 ;
+        background: cover;
+        text-align: center;
+        margin-top:3522px;
+
+       }
+       .finish h1{
+        margin-top: 90px;
+        margin-left: 35%;
+        font-size: 80px;
+       }
+       ul{
+        display: flex;
+        
+         margin-top: 250px;
+         margin-left:-360px;
+         flex-direction: row;
+         justify-content: space-between;
+        color: #00796B;
+       
+       }
+       li{
+        padding: 20px;
+        font-weight: bold;
+       }
+       .icon{
+        
+        position: relative;
+        margin-top: 350px;
+        margin-left:-360px;
+        padding-left:106px;
+        background-size: contain;
+       color: #00796B;
+       
+       }
+       .icon .first{
+        padding: 15px;
+       }
+       .icon .second{
+        padding: 15px;
+       }
+       .icon .third{
+        padding: 15px;
+       }
+       .icon .fourth{
+        padding: 15px;
+       }
+       /* finish */
+/* End */
